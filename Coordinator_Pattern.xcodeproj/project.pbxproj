@@ -13,6 +13,11 @@
 		34EDF3C5293864880001D78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EDF3C3293864880001D78B /* Main.storyboard */; };
 		34EDF3C72938648C0001D78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34EDF3C62938648C0001D78B /* Assets.xcassets */; };
 		34EDF3CA2938648C0001D78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34EDF3C82938648C0001D78B /* LaunchScreen.storyboard */; };
+		34EDF3D229387B7A0001D78B /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDF3D129387B7A0001D78B /* Protocol.swift */; };
+		34EDF3D429387BBE0001D78B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDF3D329387BBE0001D78B /* AppCoordinator.swift */; };
+		34EDF3D629387D0E0001D78B /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDF3D529387D0E0001D78B /* LoginCoordinator.swift */; };
+		34EDF3D829387D5C0001D78B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDF3D729387D5C0001D78B /* LoginViewController.swift */; };
+		34EDF3DA293880F80001D78B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EDF3D9293880F80001D78B /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		34EDF3C62938648C0001D78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34EDF3C92938648C0001D78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34EDF3CB2938648C0001D78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34EDF3D129387B7A0001D78B /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		34EDF3D329387BBE0001D78B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		34EDF3D529387D0E0001D78B /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		34EDF3D729387D5C0001D78B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		34EDF3D9293880F80001D78B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		34EDF3BC293864880001D78B /* Coordinator_Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				34EDF3D129387B7A0001D78B /* Protocol.swift */,
+				34EDF3D329387BBE0001D78B /* AppCoordinator.swift */,
+				34EDF3D9293880F80001D78B /* MainCoordinator.swift */,
+				34EDF3D529387D0E0001D78B /* LoginCoordinator.swift */,
 				34EDF3BD293864880001D78B /* AppDelegate.swift */,
 				34EDF3BF293864880001D78B /* SceneDelegate.swift */,
 				34EDF3C1293864880001D78B /* ViewController.swift */,
+				34EDF3D729387D5C0001D78B /* LoginViewController.swift */,
 				34EDF3C3293864880001D78B /* Main.storyboard */,
 				34EDF3C62938648C0001D78B /* Assets.xcassets */,
 				34EDF3C82938648C0001D78B /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EDF3D829387D5C0001D78B /* LoginViewController.swift in Sources */,
+				34EDF3DA293880F80001D78B /* MainCoordinator.swift in Sources */,
+				34EDF3D629387D0E0001D78B /* LoginCoordinator.swift in Sources */,
 				34EDF3C2293864880001D78B /* ViewController.swift in Sources */,
 				34EDF3BE293864880001D78B /* AppDelegate.swift in Sources */,
+				34EDF3D429387BBE0001D78B /* AppCoordinator.swift in Sources */,
 				34EDF3C0293864880001D78B /* SceneDelegate.swift in Sources */,
+				34EDF3D229387B7A0001D78B /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
